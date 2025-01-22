@@ -48,7 +48,7 @@ export default function VideoPlayer() {
           }}
           streamType="on-demand"
           playbackId="PqYG01g01dxwUap6pG5XqT1Wu4pHE01KUyuztUCMwUfI58"
-          metadataVideoTitle="Exclusive Webinar"
+          metadataVideoTitle="Exclusive Workshop"
           metadata={{ viewer_user_id: "Placeholder" }}
           primaryColor="#ffffff"
           secondaryColor="#000000"
@@ -59,7 +59,7 @@ export default function VideoPlayer() {
           targetBufferDuration={30}
           preload="auto"
           defaultHiddenCaptions={true}
-          autoPlay={false}
+          autoPlay
           muted={false} />
       </div>
     </div>

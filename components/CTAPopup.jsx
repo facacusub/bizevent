@@ -20,6 +20,28 @@ export default function CTAPopup() {
       className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-2 sm:p-4 z-50">
       <div
         className="bg-gradient-to-br from-cyan-600 via-cyan-700 to-cyan-900 rounded-xl w-full max-w-4xl overflow-hidden relative">
+        {/* Close X Button */}
+        <button
+          onClick={() => setIsVisible(false)}
+          className="absolute rounded-full p-2 bg-cyan-900/40 top-2 right-2 z-10 text-white/70 hover:text-cyan-200 transition-colors"
+          aria-label="Close popup"
+        >
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            width="24" 
+            height="24" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            stroke="currentColor" 
+            strokeWidth="2" 
+            strokeLinecap="round" 
+            strokeLinejoin="round"
+          >
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+
         {/* Wave Pattern */}
         <div
           className="absolute inset-0 opacity-10"
@@ -39,7 +61,7 @@ export default function CTAPopup() {
                 priority
                 className="object-contain w-48 md:w-full h-auto max-h-[250px] sm:max-h-[300px] md:max-h-[400px]" />
               <div
-                className="absolute top-2 right-2 bg-cyan-500 text-white px-2 md:px-3 py-1 rounded-full text-xs md:text-sm font-semibold">
+                className="absolute top-2 left-2  bg-cyan-500 text-white px-2 md:px-3 py-1 rounded-full text-xs md:text-sm font-semibold">
                 SPECIAL OFFER
               </div>
           </div>
@@ -51,13 +73,14 @@ export default function CTAPopup() {
                 Get Instant Access to Warsame's successful personal branding framework
               </h2>
               <div className="space-y-3 md:space-y-4">
-                <p className="text-cyan-100 text-base md:text-lg">Limited slots: 100 members only</p>
+                <p className="text-cyan-100 text-base md:text-lg my-2 font-semibold">Limited slots: 100 members only</p>
                
-                <Button
-                  onClick={() => (window.location.href = "https://your-stripe-checkout-url.com")}
-                  className="w-full bg-gradient-to-r from-cyan-400 to-cyan-500 hover:from-cyan-500 hover:to-cyan-600 text-white font-bold py-4 md:py-6 px-4 md:px-8 rounded-xl text-base md:text-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                  Enroll Now 
-                </Button>
+                <a href="https://courses.facacusub.com/enroll/2987810?price_id=3843609" target="_blank">
+                  <Button
+                    className="w-full bg-gradient-to-r from-cyan-400 to-cyan-500 hover:from-cyan-500 hover:to-cyan-600 text-white font-bold py-4 md:py-6 px-4 md:px-8 rounded-xl text-base md:text-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    Enroll Now
+                  </Button>
+                </a>
                 <p className="text-cyan-200 text-xs md:text-sm text-center">
                   🔒 Secure Payment • Instant Access 
                 </p>
@@ -67,7 +90,7 @@ export default function CTAPopup() {
         </div>
 
         {/* Bottom Wave Decoration */}
-        <div className="h-16 relative overflow-hidden">
+        {/* <div className="h-16 relative overflow-hidden">
           <div
             className="absolute bottom-0 left-0 right-0 h-24"
             style={{
@@ -76,7 +99,7 @@ export default function CTAPopup() {
               backgroundSize: "cover",
               backgroundPosition: "center",
             }} />
-        </div>
+        </div> */}
 
         {/* Close Button */}
         {/* <button
