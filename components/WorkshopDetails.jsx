@@ -50,7 +50,7 @@ const WorkshopDetails = () => {
                 </div>
 
                 {/* Episode Details */}
-                <div className="flex items-center space-x-4 mb-6 text-sm text-gray-400">
+                {/* <div className="flex items-center space-x-4 mb-6 text-sm text-gray-400">
                   <span className="flex items-center">
                     <FaCalendar className="mr-2 text-cyan-500" />
                     Dec {24 + episode.number}, 2024
@@ -59,7 +59,7 @@ const WorkshopDetails = () => {
                     <FaClock className="mr-2 text-cyan-500" />
                     7:00 PM EST
                   </span>
-                </div>
+                </div> */}
 
                 {/* Topics List */}
                 <ul className="space-y-3">

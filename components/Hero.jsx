@@ -28,7 +28,7 @@ const Hero = () => {
           alt="Hero Background"
           width={800}
           height={1000}
-          className="object-cover object-center"
+          className="object-cover w-full h-full md:h-[60vh] md:w-[90vh] object-center"
           priority
         />
         {/* Bottom Gradient Fade */}
@@ -44,12 +44,12 @@ const Hero = () => {
               Turn Your <span className="text-cyan-400">Expertise</span> into <span className="text-cyan-400">Profit</span>
             </h1>
             <h2 className="text-sm md:text-xl lg:text-2xl text-gray-300 w-full md:max-w-4xl">
-              Join My exclusive  webinar and discover how I generated $200K through community-driven monetization
+              Join My exclusive workshop and discover how I generated $150,000 through personal branding and community-driven monetization
             </h2>
           </div>
 
-          {/* Webinar Details */}
-          <div className="flex flex-col md:flex-row justify-start md:items-center font-medium space-y-4 md:space-y-0 md:space-x-8 mb-8 text-sm lg:text-lg text-white">
+          {/* workshop Details */}
+          {/* <div className="flex flex-col md:flex-row justify-start md:items-center font-medium space-y-4 md:space-y-0 md:space-x-8 mb-8 text-sm lg:text-lg text-white">
             <div className="flex items-center">
               <FaCalendar className="mr-2 text-cyan-400" />
               <span>December 25, 2024</span>
@@ -60,9 +60,9 @@ const Hero = () => {
             </div>
             <div className="flex items-center">
               <FaVideo className="mr-2 text-cyan-400" />
-              <span>Live Online Webinar</span>
+              <span>Live Online workshop</span>
             </div>
-          </div>
+          </div> */}
 
           {/* Stats Grid
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
@@ -77,12 +77,12 @@ const Hero = () => {
               <Button 
                 className="bg-cyan-400 hover:bg-cyan-500 text-slate-900 font-bold py-4 px-8 text-sm md:text-xl h-auto" 
               >
-                SAVE YOUR FREE SPOT
+                JOIN THE WORKSHOP
               </Button>
             </Link>
-            <p className="text-sm text-gray-400">
+            {/* <p className="text-sm text-gray-400">
               Limited spots available. Reserve your seat now!
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
