@@ -47,10 +47,10 @@ export default function VideoPlayer() {
             objectFit: "cover",
           }}
           streamType="on-demand"
-          playbackId="PqYG01g01dxwUap6pG5XqT1Wu4pHE01KUyuztUCMwUfI58"
+          playbackId="qAH2IWPDpY67fU2UshcbjGdNqGIDeCh02McKMrTu01yOs"
           metadataVideoTitle="Exclusive Workshop"
           metadata={{ viewer_user_id: "Placeholder" }}
-          primaryColor="#ffffff"
+          primaryColor="#51effb"
           secondaryColor="#000000"
           accentColor="#51effb"
           maxResolution="1080p"
@@ -60,9 +60,25 @@ export default function VideoPlayer() {
           preload="auto"
           defaultHiddenCaptions={true}
           autoPlay
+poster="https://image.mux.com/qAH2IWPDpY67fU2UshcbjGdNqGIDeCh02McKMrTu01yOs/thumbnail.webp?width=1080&height=1920&time=5"
+
           muted={false} />
       </div>
     </div>
   );
 }
 
+// streamType="on-demand"
+// playbackId="qAH2IWPDpY67fU2UshcbjGdNqGIDeCh02McKMrTu01yOs"
+// metadataVideoTitle="Placeholder (optional)"
+// metadata-viewer-user-id="Placeholder (optional)"
+// primary-color="#1cc0e9"
+// secondary-color="#000000"
+// accent-color="#51f8fb"
+
+
+  
+
+// autoPlay
+// poster="https://image.mux.com/qAH2IWPDpY67fU2UshcbjGdNqGIDeCh02McKMrTu01yOs/thumbnail.png?width=214&height=121&time=241"
+// loop
