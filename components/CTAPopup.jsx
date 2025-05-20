@@ -55,6 +55,7 @@ export default function CTAPopup() {
           <div className="flex items-center justify-center relative">
               <Image
                 src="/warsame.png"
+                unoptimized={true}  
                 alt="SMMA Course Preview"
                 width={300}
                 height={400}

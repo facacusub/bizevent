@@ -30,6 +30,7 @@ const WorkshopDetails = () => {
                   src={`/webinar/webinar${episode.number}.jpg`}
                   alt={`Day ${episode.number} Cover`}
                   fill
+                  unoptimized={true}
                   className="object-cover transform group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent" />
