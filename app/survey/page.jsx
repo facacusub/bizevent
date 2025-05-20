@@ -46,6 +46,7 @@ export default function SurveyPage() {
       <div className="absolute inset-0 overflow-hidden">
         <Image 
           src="/bg.jpg" 
+          unoptimized={true}  
           alt="Background" 
           fill 
           className="object-cover opacity-30"
@@ -68,6 +69,7 @@ export default function SurveyPage() {
             </div>
             <Image
               src="/webinar/bade.png"
+              unoptimized={true}
               alt="SMMA Expert"
               width={280}
               height={360}
@@ -149,6 +151,7 @@ export default function SurveyPage() {
               <div className="relative w-full max-w-sm lg:max-w-md">
                 <Image
                   src="/webinar/bade.png"
+                  unoptimized={true}
                   alt="SMMA Expert"
                   width={500}
                   height={600}

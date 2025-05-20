@@ -26,6 +26,7 @@ const Hero = () => {
         <Image
           // src="/webinar/bade.png"
           src="/webinar/bade.png"
+          unoptimized={true}
           alt="Hero Background"
           width={800}
           height={1000}
