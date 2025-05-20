@@ -19,11 +19,11 @@ export default function CTAPopup() {
     (<div
       className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-2 sm:p-4 z-50">
       <div
-        className="bg-gradient-to-br from-cyan-600 via-cyan-700 to-cyan-900 rounded-xl w-full max-w-4xl overflow-hidden relative">
+        className="bg-gradient-to-br from-purple-600 via-purple-700 to-purple-900 rounded-xl w-full max-w-4xl overflow-hidden relative">
         {/* Close X Button */}
         <button
           onClick={() => setIsVisible(false)}
-          className="absolute rounded-full p-2 bg-cyan-900/40 top-2 right-2 z-10 text-white/70 hover:text-cyan-200 transition-colors"
+          className="absolute rounded-full p-2 bg-purple-900/40 top-2 right-2 z-10 text-white/70 hover:text-purple-200 transition-colors"
           aria-label="Close popup"
         >
           <svg 
@@ -55,14 +55,14 @@ export default function CTAPopup() {
           <div className="flex items-center justify-center relative">
               <Image
                 src="/warsame.png"
-                alt="Course Preview"
+                alt="SMMA Course Preview"
                 width={300}
                 height={400}
                 priority
                 className="object-contain w-48 md:w-full h-auto max-h-[250px] sm:max-h-[300px] md:max-h-[400px]" />
               <div
-                className="absolute top-2 left-2  bg-cyan-500 text-white px-2 md:px-3 py-1 rounded-full text-xs md:text-sm font-semibold">
-                SPECIAL OFFER
+                className="absolute top-2 left-2 bg-purple-500 text-white px-2 md:px-3 py-1 rounded-full text-xs md:text-sm font-semibold">
+                FAST-ACTION BONUS
               </div>
           </div>
 
@@ -70,19 +70,19 @@ export default function CTAPopup() {
           <div className="flex flex-col justify-center text-white">
             <div className="space-y-4 md:space-y-6">
               <h2 className="text-lg md:text-2xl font-bold leading-tight">
-                Get Instant Access to Warsame's successful personal branding framework
+                Want to Skip the Learning Curve? Get Our Complete SMMA Mastery Program
               </h2>
               <div className="space-y-3 md:space-y-4">
-                <p className="text-cyan-100 text-base md:text-lg my-2 font-semibold">Limited slots: 100 members only</p>
+                <p className="text-purple-100 text-base md:text-lg my-2 font-semibold">For event participants only: 50% OFF today!</p>
                
                 <a href="https://courses.facacusub.com/enroll/2987810?price_id=3843609" target="_blank">
                   <Button
-                    className="w-full bg-gradient-to-r from-cyan-400 to-cyan-500 hover:from-cyan-500 hover:to-cyan-600 text-white font-bold py-4 md:py-6 px-4 md:px-8 rounded-xl text-base md:text-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                    Enroll Now
+                    className="w-full bg-gradient-to-r from-purple-400 to-purple-500 hover:from-purple-500 hover:to-purple-600 text-white font-bold py-4 md:py-6 px-4 md:px-8 rounded-xl text-base md:text-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    Get Instant Access
                   </Button>
                 </a>
-                <p className="text-cyan-200 text-xs md:text-sm text-center">
-                  🔒 Secure Payment • Instant Access 
+                <p className="text-purple-200 text-xs md:text-sm text-center">
+                  🔒 Secure Payment • Lifetime Access • 30-Day Money-Back Guarantee
                 </p>
               </div>
             </div>
@@ -104,7 +104,7 @@ export default function CTAPopup() {
         {/* Close Button */}
         {/* <button
           onClick={() => setIsVisible(false)}
-          className="absolute bottom-4 left-1/2 -translate-x-1/2 text-cyan-200 hover:text-white text-sm font-medium transition-colors">
+          className="absolute bottom-4 left-1/2 -translate-x-1/2 text-purple-200 hover:text-white text-sm font-medium transition-colors">
           No thanks, I'll pass
         </button> */}
       </div>

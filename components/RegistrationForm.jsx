@@ -57,10 +57,10 @@ export default function RegistrationForm() {
       <Button
         type="submit"
         disabled={isLoading}
-        className="w-fit bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white font-semibold py-2 px-4 rounded-xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-        {isLoading ? "Registering..." : "Register Now"}
+        className="w-fit bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-semibold py-2 px-4 rounded-xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+        {isLoading ? "Processing..." : "Get Instant Access"}
       </Button>
-      <p className="text-center text-sm text-cyan-600 mt-4">You're just one step away from your free video!</p>
+      <p className="text-center text-sm text-purple-600 mt-4">Continue to the survey to join our free 3-day SMMA event!</p>
     </form>)
   );
 }

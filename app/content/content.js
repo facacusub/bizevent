@@ -1,94 +1,111 @@
 export const content = {
     siteInfo: {
-      title: "Knowledge to Profit (K2P)",
-      description: "Learn How to Monetize Your Expertise",
+      title: "SMMA Event",
+      description: "Make Your First $1K With Social Media Marketing",
     },
     header: {
       logo: "/images/k2p-logo.png",
-      navItems: ["About", "workshop", "FAQ", "Register"],
+      navItems: ["About", "Event", "FAQ", "Register"],
     },
     hero: {
       title: {
-        highlight: "Turn Your Expertise into Profit",
+        highlight: "Make Your First $1K With SMMA",
       },
-      subtitle: "Learn How to Monetize Your Audience",
+      subtitle: "3-Day Event To Launch Your Social Media Marketing Agency",
       host: "WARSAME BADE",
-      description: "Join Warsame Bade's exclusive  workshop series and discover how he generated $200K through community-driven monetization",
-      ctaText: "REGISTER FOR THE WORKSHOP",
-      workshopDates: {
-        episode1: "March 25, 2024 - 7:00 PM EST",
-        episode2: "March 27, 2024 - 7:00 PM EST"
+      description: "Join our FREE 3-day event and learn exactly how to start a profitable Social Media Marketing Agency from scratch",
+      ctaText: "JOIN THE FREE EVENT",
+      eventDates: {
+        day1: "Day 1: Mindset & Business Models (May 31st, 2025)",
+        day2: "Day 2: Essential Tools & Software (June 1st, 2025)",
+        day3: "Day 3: Landing Your First Client (June 2nd, 2025)"
       },
       stats: [
-        { number: '$200K+', label: 'REVENUE GENERATED' },
-        { number: '2', label: 'EXCLUSIVE EPISODES' },
-        { number: '1000+', label: 'STUDENTS TAUGHT' },
+        { number: '3 Days', label: 'STEP-BY-STEP TRAINING' },
+        { number: '$1K+', label: 'INCOME POTENTIAL' },
+        { number: '100%', label: 'FREE ACCESS' },
       ]
     },
     benefits: {
-      title: "WHY MONETIZE YOUR AUDIENCE?",
+      title: "WHY START AN SMMA?",
       items: [
         {
-          title: "BUILD PASSIVE INCOME",
-          description: "Create sustainable revenue streams from your expertise"
+          title: "LOW STARTUP COSTS",
+          description: "Begin with minimal investment and scale as you grow"
         },
         {
-          title: "SCALE YOUR IMPACT",
-          description: "Reach more people while maintaining quality and personal touch"
+          title: "HIGH-DEMAND SKILL",
+          description: "Every business needs social media marketing services"
         },
         {
-          title: "DEEPEN ENGAGEMENT",
-          description: "Build stronger connections with your community through value-driven content"
+          title: "LOCATION FREEDOM",
+          description: "Work from anywhere while serving clients globally"
         }
       ]
     },
     WorkshopContent: {
-        title: "WHAT YOU'LL LEARN IN THE WORKSHOP",
+        title: "WHAT YOU WILL LEARN IN THE SMMA EVENT",
       episodes: [
         {
           number: 1,
-          title: "The Roadmap to $150K",
+          title: "Mindset & Business Models",
+          date: "Saturday, May 31st, 2025",
           topics: [
-            "Identifying your monetizable expertise",
-            "Building a loyal, paying audience",
-            "Choosing the right monetization channels"
+            "The SMMA business model blueprint",
+            "Identifying profitable niches",
+            "Setting up your business foundation"
           ]
         },
-      //   {
-      //     number: 2,
-      //     title: "Q&A + Practical Monetization Tactics",
-      //     topics: [
-      //       "Live implementation strategies",
-      //       "Tool selection and setup",
-      //       "Scaling your income streams"
-      //     ]
-      //   }
+        {
+          number: 2,
+          title: "Essential Tools & Software",
+          date: "Sunday, June 1st, 2025",
+          topics: [
+            "Client management systems",
+            "Content creation tools",
+            "Analytics and reporting platforms"
+          ]
+        },
+        {
+          number: 3,
+          title: "Landing Your First Client",
+          date: "Monday, June 2nd, 2025",
+          topics: [
+            "Finding and approaching potential clients",
+            "Creating irresistible offers",
+            "Closing deals and reaching your first $1K"
+          ]
+        }
       ]
     },
     founderStory: {
-      title: "Meet Warsame Bade",
-      subtitle: "From $0 to $200K Through Community Monetization",
-      story: "Starting with zero audience and zero income, I discovered the power of community-driven monetization...",
+      title: "Meet Your Coach",
+      subtitle: "From Zero to Six-Figure Agency Owner",
+      story: "I started with no experience, connections, or special advantages - just a determination to make SMMA work. Now I run a successful agency while helping others do the same.",
       achievements: [
-        "Built a 300K+ following across platforms",
-        "Generated $200K through community programs",
-        "Helped 1000+ students start their online journey"
+        "Built a six-figure SMMA from scratch",
+        "Worked with clients across multiple industries",
+        "Developed a repeatable system for SMMA success"
       ]
     },
     faq: {
       title: "Frequently Asked Questions",
       questions: [
         {
-          question: "What is Miftah?",
-          answer: "Miftah is a framework that helps educators and creators transform their expertise into profitable online businesses."
+          question: "Do I need experience to join the event?",
+          answer: "No prior experience is needed. The event is designed for complete beginners who want to start their SMMA journey."
         },
         {
-          question: "How do I access the workshop?",
-          answer: "After registration, you'll receive a confirmation email with Zoom links for both episodes."
+          question: "How do I access the event content?",
+          answer: "After completing the survey, you'll receive access instructions for all three days of the event (May 31st - June 2nd, 2025)."
         },
         {
-          question: "Who is this workshop for?",
-          answer: "This workshop is perfect for educators, content creators, and experts who want to monetize their knowledge and audience."
+          question: "Is this really free or are there hidden costs?",
+          answer: "The 3-day event is completely free. We offer additional training options after the event for those who want to go deeper."
+        },
+        {
+          question: "How quickly can I start making money?",
+          answer: "While results vary, many students land their first client within 30 days of implementing our strategy. The event gives you the foundation to start immediately."
         }
       ]
     }
