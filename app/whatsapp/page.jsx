@@ -10,7 +10,8 @@ export default function WhatsAppPage() {
   
   const handleJoinClick = () => {
     // Open the WhatsApp group link in a new tab
-    window.open('https://chat.whatsapp.com/yourGroupLinkHere', '_blank');
+    // https://chat.whatsapp.com/EyKuJJtPRwlHUIli97YQPH
+    window.open('https://chat.whatsapp.com/EyKuJJtPRwlHUIli97YQPH', '_blank');
     setJoined(true);
   };
 
