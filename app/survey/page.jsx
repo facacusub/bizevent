@@ -168,7 +168,7 @@ export default function SurveyPage() {
         <div className="max-w-4xl mx-auto pt-8 pb-16">
           <div className="bg-slate-900/70 backdrop-blur-sm rounded-xl border border-purple-500/20 relative p-4 md:p-8">
             <iframe
-              data-tally-src="https://tally.so/embed/wLvRv2?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+              data-tally-src="https://tally.so/embed/mePo6o?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
               loading="lazy"
               width="100%"
               height="500"
