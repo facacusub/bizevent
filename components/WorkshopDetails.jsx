@@ -52,14 +52,14 @@ const WorkshopDetails = () => {
                 </div>
 
                 {/* Topics List */}
-                <ul className="space-y-3">
+                {/* <ul className="space-y-3">
                   {episode.topics.map((topic, index) => (
                     <li key={index} className="flex text-sm items-start text-gray-300 group-hover:text-white transition-colors">
                       <span className="text-purple-500 mr-2">•</span>
                       {topic}
                     </li>
                   ))}
-                </ul>
+                </ul> */}
 
                 {/* CTA Button */}
                 <div className="mt-6">
