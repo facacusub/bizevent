@@ -11,7 +11,8 @@ export default function WhatsAppPage() {
   const handleJoinClick = () => {
     // Open the WhatsApp group link in a new tab
     // https://chat.whatsapp.com/EyKuJJtPRwlHUIli97YQPH
-    window.open('https://chat.whatsapp.com/EyKuJJtPRwlHUIli97YQPH', '_blank');
+    // https://chat.whatsapp.com/LCOUpa3GTLc7OWKKDCZuwt
+    window.open('https://chat.whatsapp.com/LCOUpa3GTLc7OWKKDCZuwt', '_blank');
     setJoined(true);
   };
 
