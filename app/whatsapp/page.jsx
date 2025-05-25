@@ -13,8 +13,8 @@ export default function WhatsAppPage() {
   // WhatsApp group links for different regions
   const whatsappGroups = {
     high: 'https://chat.whatsapp.com/I4j2xK9VcQl9T0mmMf2OeG', // West/High income
-    medium: 'https://chat.whatsapp.com/JIegH5OUHaiEIlqCPTagki', // Asia + High income Africa
-    low: 'https://chat.whatsapp.com/JIegH5OUHaiEIlqCPTagki' // Low income countries (placeholder - you can add a third link)
+    medium: 'https://chat.whatsapp.com/IigFILRye3ZAbbJm3PMR7n', // Asia + High income Africa
+    low: 'https://chat.whatsapp.com/IigFILRye3ZAbbJm3PMR7n' // Low income countries (placeholder - you can add a third link)
   };
 
   // Country classification by income tier
