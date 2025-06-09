@@ -14,16 +14,16 @@
 
 "use client"
 import { useEffect } from 'react';
-import Hero from '@/components/Hero';
-import WorkshopDetails from '@/components/WorkshopDetails';
-import WhyAttendWorkshop from '@/components/WhyAttendWorkshop';
+import LeadMagnetHero from '@/components/LeadMagnetHero';
+import GuideDetails from '@/components/GuideDetails';
+import WhyDownloadGuide from '@/components/WhyDownloadGuide';
 
 export default function Home() {
   return (
     <main className="bg-slate-950">
-      <Hero />
-      <WorkshopDetails />
-      <WhyAttendWorkshop />
+      <LeadMagnetHero />
+      <GuideDetails />
+      <WhyDownloadGuide />
     </main>
   );
 } 
