@@ -50,17 +50,22 @@ export default function CoachingPage() {
           {/* Video Section */}
           <div className="w-full max-w-2xl">
             <div className="relative">
-              {/* Auto-playing Video */}
-              <div className="relative bg-slate-800 rounded-2xl overflow-hidden aspect-video border border-purple-500/20">
+              {/* Bunny Stream Video */}
+              <div className="relative bg-slate-800 rounded-2xl overflow-hidden border border-purple-500/20 shadow-2xl" style={{ paddingTop: '56.25%' }}>
                 <iframe
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/vodroSzMjzw?autoplay=1&rel=0"
+                  src="https://iframe.mediadelivery.net/embed/328838/30c22d8e-6c7b-4df6-94d8-c1c2674a5391?autoplay=true"
+                  loading="lazy"
+                  style={{
+                    border: 'none',
+                    position: 'absolute',
+                    top: 0,
+                    height: '100%',
+                    width: '100%',
+                    borderRadius: '16px'
+                  }}
+                  allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;"
+                  allowFullScreen={true}
                   title="Warsame Coaching Offer"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="rounded-xl"
                 ></iframe>
               </div>
               

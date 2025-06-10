@@ -38,7 +38,7 @@ const LeadMagnetHero = () => {
             <div className="relative">
               <div className="relative bg-slate-800 rounded-2xl overflow-hidden border border-purple-500/20 shadow-2xl" style={{ paddingTop: '56.25%' }}>
                 <iframe
-                  src="https://iframe.mediadelivery.net/embed/328838/fdc6add8-e625-451f-b3fc-51e650917728?autoplay=true"
+                  src="https://iframe.mediadelivery.net/embed/328838/8d20f721-d679-42c7-92ff-933e721a81b2?autoplay=true"
                   loading="lazy"
                   style={{
                     border: 'none',
