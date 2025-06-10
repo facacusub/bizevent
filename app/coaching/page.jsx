@@ -1,11 +1,17 @@
 "use client"
 import { useState } from 'react';
-import { FaPlay, FaDownload, FaVideo, FaCheckCircle, FaArrowRight } from 'react-icons/fa';
+import { FaPlay, FaDownload, FaVideo, FaCheckCircle, FaArrowRight, FaCreditCard, FaWhatsapp } from 'react-icons/fa';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 
 export default function CoachingPage() {
   const [videoPlaying, setVideoPlaying] = useState(false);
+
+  // WhatsApp message for manual payment
+  const whatsappMessage = encodeURIComponent(
+    "Hi! I'm interested in booking a 1-on-1 Strategy Call with Warsame for $49. I'd like to pay manually. Can you help me with the payment process?"
+  );
+  const whatsappUrl = `https://wa.me/252905616363?text=${whatsappMessage}`;
 
   return (
     <div className="min-h-screen bg-slate-950 relative overflow-hidden">
@@ -110,19 +116,49 @@ export default function CoachingPage() {
                 </div>
               </div> */}
 
-              {/* CTA Buttons */}
-              <div className=" flex flex-col sm:flex-row gap-4 w-full items-center justify-center ">
-                {/* Primary CTA - Coaching */}
-                <Link href="https://buy.stripe.com/7sYcN61oA2zHa6m9Lae7m1c" target="_blank">
-                  <Button className="border-purple-500/30 bg-purple-600 hover:bg-purple-700 font-semibold py-3 px-6 text-base h-auto w-full">
-                    <FaVideo className="mr-2" />
-                    Book My Strategy Call - $49
-                  </Button>
-                </Link>
-                
-                {/* Secondary CTA - Continue to PDF */}
+              {/* Payment Options Split */}
+              <div className="mb-8">
+                <h3 className="text-lg font-semibold text-white mb-4">Choose Your Payment Method</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  
+                  {/* Card Payment */}
+                  <div className="bg-slate-800/50 border border-purple-500/30 rounded-xl p-4">
+                    <div className="mb-3">
+                      <FaCreditCard className="text-purple-400 text-2xl mx-auto mb-2" />
+                      <h4 className="text-white font-semibold">Pay with Card</h4>
+                      <p className="text-gray-400 text-sm">Instant access via card payment</p>
+                    </div>
+                    <Link href="https://buy.stripe.com/7sYcN61oA2zHa6m9Lae7m1c" target="_blank">
+                      <Button className="border-purple-500/30 bg-purple-600 hover:bg-purple-700 font-semibold py-3 px-6 text-base h-auto w-full">
+                        <FaVideo className="mr-2" />
+                        Book Now - $49
+                      </Button>
+                    </Link>
+                  </div>
+
+                  {/* WhatsApp Payment */}
+                  <div className="bg-slate-800/50 border border-green-500/30 rounded-xl p-4">
+                    <div className="mb-3">
+                      <FaWhatsapp className="text-green-400 text-2xl mx-auto mb-2" />
+                      <h4 className="text-white font-semibold">Pay Manually</h4>
+                      <p className="text-gray-400 text-sm">Contact our team via WhatsApp. Click the button</p>
+                    </div>
+                    <Link href={whatsappUrl} target="_blank">
+                      <Button className="border-green-500/30 bg-green-600 hover:bg-green-700 font-semibold py-3 px-6 text-base h-auto w-full">
+                        <FaWhatsapp className="mr-2" />
+                        Contact +252 905 616 363
+                      </Button>
+                    </Link>
+                  </div>
+
+                </div>
+              </div>
+
+              {/* Continue to Free Guide - Below Split */}
+              <div className="border-t border-purple-500/20 pt-6">
+                <p className="text-gray-400 text-sm mb-4">Not ready to book?</p>
                 <Link href="/thank-you">
-                  <Button variant="outline" className="border-purple-500/30 text-purple-400 hover:bg-purple-500/10 hover:text-white font-semibold py-3 px-6 text-base h-auto w-full">
+                  <Button variant="outline" className="border-purple-500/30 text-purple-400 hover:bg-purple-500/10 hover:text-white font-semibold py-3 px-6 text-base h-auto w-full max-w-xs mx-auto">
                     <FaDownload className="mr-2" />
                     Continue to Free Guide
                   </Button>
