@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from './ui/button';
-import { FaDownload, FaFileAlt, FaUsers, FaArrowRight, FaWhatsapp } from 'react-icons/fa';
-import Image from 'next/image';
+import { FaDownload, FaFileAlt, FaUsers, FaArrowRight, FaWhatsapp, FaPlay } from 'react-icons/fa';
 import Link from 'next/link';
 
 const LeadMagnetHero = () => {
@@ -33,37 +32,49 @@ const LeadMagnetHero = () => {
             </div>
           </div>
 
-          {/* Image Section */}
-          <div className="relative max-w-5xl w-full">
-            {/* Main Thumbnail */}
+          {/* Video Section */}
+          <div className="relative max-w-4xl w-full">
+            {/* VSL Video Player */}
             <div className="relative">
-              <Image
-                src="/guide.png"
-                alt="The 7 Steps to Consistent Clients - Free Business Guide by Warsame Bade"
-                width={600}
-                height={400}
-                className="w-full h-auto rounded-2xl shadow-2xl border border-purple-500/20"
-                priority
-                unoptimized
-              />
+              <div className="relative bg-slate-800 rounded-2xl overflow-hidden border border-purple-500/20 shadow-2xl" style={{ paddingTop: '56.25%' }}>
+                <iframe
+                  src="https://iframe.mediadelivery.net/embed/328838/fdc6add8-e625-451f-b3fc-51e650917728?autoplay=true"
+                  loading="lazy"
+                  style={{
+                    border: 'none',
+                    position: 'absolute',
+                    top: 0,
+                    height: '100%',
+                    width: '100%',
+                    borderRadius: '16px'
+                  }}
+                  allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;"
+                  allowFullScreen={true}
+                  title="The 7 Steps to Consistent Clients - Free Business Guide"
+                ></iframe>
+              </div>
               
               {/* Glow Effect */}
               <div className="absolute inset-0 bg-purple-500/10 rounded-2xl blur-xl -z-10 scale-105"></div>
               
-              {/* Download Indicator */}
-              <div className="absolute -bottom-4 -right-4 bg-purple-400 rounded-full p-3 shadow-lg animate-pulse">
-                <FaDownload className="text-slate-900 text-lg" />
-              </div>
+              {/* Video Play Indicator */}
+              {/* <div className="absolute -bottom-4 -right-4 bg-purple-400 rounded-full p-3 shadow-lg">
+                <FaPlay className="text-slate-900 text-lg" />
+              </div> */}
             </div>
 
             {/* Floating Elements */}
-            <div className="absolute -top-4 -left-4 animate-pulse bg-purple-500/50 backdrop-blur-sm rounded-full px-3 py-1 border border-purple-500/30">
-              <span className="text-purple-300 text-sm font-semibold">FREE</span>
+            {/* <div className="absolute -top-4 -left-4 animate-pulse bg-purple-500/50 backdrop-blur-sm rounded-full px-3 py-1 border border-purple-500/30">
+              <span className="text-purple-300 text-sm font-semibold">WATCH NOW</span>
             </div>
             
-            <div className="absolute top-4 -right-6 bg-purple-500/20 backdrop-blur-sm rounded-full px-3 py-1 border border-purple-500/30">
-              <span className="text-purple-400 text-sm font-semibold">PDF GUIDE</span>
+            <div className="absolute top-4 -right-6 bg-red-500/80 backdrop-blur-sm rounded-full px-3 py-1 border border-red-500/30">
+              <span className="text-white text-sm font-semibold">● LIVE</span>
             </div>
+            
+            <div className="absolute bottom-4 left-4 bg-slate-900/80 backdrop-blur-sm rounded-lg px-3 py-1 border border-purple-500/30">
+              <span className="text-purple-400 text-sm font-semibold">Watch to unlock guide</span>
+            </div> */}
           </div>
 
           {/* CTA Section */}
