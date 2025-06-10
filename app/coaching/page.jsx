@@ -70,13 +70,13 @@ export default function CoachingPage() {
             <div className="bg-gradient-to-r from-purple-500/10 to-blue-500/10 border border-purple-500/20 rounded-2xl p-6 md:p-8 text-center">
               
               {/* Offer Headline */}
-              <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
+              {/* <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
                 1-on-1 Strategy Call with Warsame
               </h2>
               <p className="text-gray-300 mb-6">
                 Get personalized guidance to implement the 7 steps in your specific business
               </p>
-              
+               */}
               {/* Price */}
               <div className="mb-6">
                 <div className="text-gray-400 line-through text-lg">$99</div>
@@ -100,13 +100,25 @@ export default function CoachingPage() {
                 </div>
               </div> */}
 
+              {/* What You Get */}
+              {/* <div className="mb-6">
+                <p className="text-gray-300 text-sm mb-2">After purchase, you'll get:</p>
+                <div className="flex items-center justify-center space-x-4 text-sm text-gray-400">
+                  <span>• 1-on-1 Strategy Call</span>
+                  <span>• WhatsApp Group Access</span>
+                  <span>• Free Guide</span>
+                </div>
+              </div> */}
+
               {/* CTA Buttons */}
-              <div className=" flex flex-col sm:flex-row gap-4 ">
+              <div className=" flex flex-col sm:flex-row gap-4 w-full items-center justify-center ">
                 {/* Primary CTA - Coaching */}
-                <Button className="border-purple-500/30 bg-purple-600 hover:bg-purple-700 font-semibold py-3 px-6 text-base h-auto w-full">
-                  <FaVideo className="mr-2" />
-                  Book My Strategy Call - $49
-                </Button>
+                <Link href="https://buy.stripe.com/7sYcN61oA2zHa6m9Lae7m1c" target="_blank">
+                  <Button className="border-purple-500/30 bg-purple-600 hover:bg-purple-700 font-semibold py-3 px-6 text-base h-auto w-full">
+                    <FaVideo className="mr-2" />
+                    Book My Strategy Call - $49
+                  </Button>
+                </Link>
                 
                 {/* Secondary CTA - Continue to PDF */}
                 <Link href="/thank-you">
