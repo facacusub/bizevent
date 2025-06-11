@@ -85,9 +85,9 @@ export default function ThankYouPage() {
             <h3 className="text-xl md:text-2xl font-bold text-white mb-3 md:mb-4">
               Join Our Business Community
             </h3>
-            {/* <p className="text-gray-300 mb-4 md:mb-6 text-sm md:text-base leading-relaxed">
-              Connect with successful business owners, share tips, get support, and grow together in our exclusive WhatsApp group.
-            </p> */}
+            <p className="text-gray-300 mb-4 md:mb-6 text-sm md:text-base leading-relaxed">
+              Connect with successful business owners. Webinar details will be sent here
+            </p>
             
             <Button 
               onClick={handleWhatsAppJoin}
@@ -143,7 +143,7 @@ export default function ThankYouPage() {
         </div> */}
 
         {/* Miftah Systems Intro */}
-        <div className="mt-8 md:mt-12 text-center bg-gradient-to-r from-purple-500/5 to-blue-500/5 border border-purple-500/10 rounded-xl md:rounded-2xl p-6 md:p-8">
+        {/* <div className="mt-8 md:mt-12 text-center bg-gradient-to-r from-purple-500/5 to-blue-500/5 border border-purple-500/10 rounded-xl md:rounded-2xl p-6 md:p-8">
           <h3 className="text-xl md:text-2xl font-bold text-white mb-3 md:mb-4">
             Want to Make This Whole System Easier?
           </h3>
@@ -176,14 +176,14 @@ export default function ThankYouPage() {
           <p className="text-gray-400 text-xs md:text-sm">
             Instead of juggling 7 different tools, get everything you need in one place—built for entrepreneurs who want results, not tech headaches.
           </p>
-        </div>
+        </div> */}
 
         {/* Footer */}
-        <div className="mt-8 md:mt-12 text-center text-gray-400">
+        {/* <div className="mt-8 md:mt-12 text-center text-gray-400">
           <p className="text-xs md:text-sm">
             Questions? Need help? Ask in our WhatsApp group - we're here to support your success! 🚀
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
