@@ -53,15 +53,20 @@ export default function SurveyPage() {
           <div className="text-center space-y-3 md:space-y-4">
             <div className="inline-flex items-center bg-purple-500/10 border border-purple-500/20 rounded-full px-3 py-1.5 md:px-4 md:py-2 mb-3 md:mb-4">
               <FaFileAlt className="text-purple-400 mr-1.5 md:mr-2 text-sm" />
-              <span className="text-purple-400 text-xs md:text-sm font-semibold">FREE GUIDE</span>
+              <span className="text-purple-400 text-xs md:text-sm font-semibold">FREE GUIDE + WEBINAR</span>
             </div>
             
             <h1 className="text-2xl md:text-3xl font-bold text-white leading-tight">
               Get Your Free <span className="text-purple-400">7 Steps Guide</span>
             </h1>
-            <p className="text-sm md:text-base text-gray-300 px-2">
+            <p className="text-sm md:text-base text-gray-300 px-2 mb-3">
               The complete framework to attract consistent clients and grow your service-based business
             </p>
+            
+            {/* Webinar Date */}
+            <div className="inline-flex items-center bg-purple-500/10 border border-purple-500/20 rounded-full px-3 py-1.5">
+              <span className="text-purple-400 text-xs font-semibold">+ LIVE WEBINAR: Friday, June 20th, 2025</span>
+            </div>
           </div>
           
           <div className="text-left w-full mt-4 md:mt-6 space-y-2 md:space-y-3">
