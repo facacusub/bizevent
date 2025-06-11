@@ -46,9 +46,14 @@ export default function ThankYouPage() {
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 md:mb-4">
             Thank You! 🎉
           </h1>
-          <p className="text-lg md:text-xl text-gray-300 mb-6 md:mb-8 max-w-2xl mx-auto px-2">
+          <p className="text-lg md:text-xl text-gray-300 mb-4 max-w-2xl mx-auto px-2">
             Your guide is ready for download, and you're all set to join our exclusive business community!
           </p>
+          
+          {/* Webinar Date */}
+          <div className="inline-flex items-center bg-purple-500/10 border border-purple-500/20 rounded-full px-4 py-2 mb-6 md:mb-8">
+            <span className="text-purple-400 text-sm font-semibold">FREE WEBINAR: Friday, June 20th, 2025</span>
+          </div>
         </div>
 
         {/* Download Section */}
@@ -86,7 +91,7 @@ export default function ThankYouPage() {
               Join Our Business Community
             </h3>
             <p className="text-gray-300 mb-4 md:mb-6 text-sm md:text-base leading-relaxed">
-              Connect with successful business owners. Webinar details will be sent here
+              Connect with successful business owners. Get webinar reminders + live updates
             </p>
             
             <Button 

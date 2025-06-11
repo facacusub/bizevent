@@ -28,12 +28,17 @@ export default function CoachingPage() {
             <span className="text-green-400 text-sm font-semibold">SURVEY COMPLETED</span>
           </div>
           
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Before You Get Your Free Guide...
+          <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
+            Before You Get Your Free Guide + Webinar...
           </h1>
-          <p className="text-md text-gray-300 max-w-3xl mx-auto">
+          <p className="text-md text-gray-300 max-w-5xl mx-auto mb-4">
             Watch this personal message from Warsame about a special opportunity to accelerate your results
           </p>
+          
+          {/* Webinar Date */}
+          <div className="inline-flex items-center bg-purple-500/10 border border-purple-500/20 rounded-full px-4 py-2">
+            <span className="text-purple-400 text-sm font-semibold">FREE WEBINAR: Friday, June 20th, 2025</span>
+          </div>
         </div>
 
         {/* Flex Column Layout */}
@@ -48,21 +53,29 @@ export default function CoachingPage() {
           </div> */}
 
           {/* Video Section */}
-          <div className="w-full max-w-2xl">
+          <div className="w-full max-w-4xl">
             <div className="relative">
-              {/* Auto-playing Video */}
-              <div className="relative bg-slate-800 rounded-2xl overflow-hidden aspect-video border border-purple-500/20">
+              {/* Bunny Stream Video */}
+              <div className="relative bg-slate-800 rounded-2xl overflow-hidden border border-purple-500/20 shadow-2xl" style={{ paddingTop: '56.25%' }}>
                 <iframe
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/D5NoYXe-xNI?autoplay=1&rel=0"
+                  src="https://iframe.mediadelivery.net/embed/391713/eaaf5762-c137-4edd-aee8-f8c57484822d?autoplay=true&loop=true&muted=true&preload=true&responsive=true"
+                  loading="lazy"
+                  style={{
+                    border: 'none',
+                    position: 'absolute',
+                    top: 0,
+                    height: '100%',
+                    width: '100%',
+                    borderRadius: '16px'
+                  }}
+                  allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;"
+                  allowFullScreen={true}
                   title="Warsame Coaching Offer"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="rounded-xl"
                 ></iframe>
               </div>
+              
+              {/* Glow Effect */}
+              <div className="absolute inset-0 bg-purple-500/10 rounded-2xl blur-xl -z-10 scale-105"></div>
               
               {/* Video Badge */}
               <div className="absolute -top-4 -right-4 bg-red-500 rounded-full px-3 py-1">
@@ -88,6 +101,7 @@ export default function CoachingPage() {
                 <div className="text-gray-400 line-through text-lg">$99</div>
                 <div className="text-4xl font-bold text-purple-400">$49</div>
                 <div className="text-sm text-gray-400">Limited time offer</div>
+                <div className="text-xs text-gray-500 mt-2">VIP group coaching 1hr before free webinar</div>
               </div>
 
               {/* What's Included - Minimal */}

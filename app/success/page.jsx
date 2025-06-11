@@ -42,7 +42,7 @@ export default function SuccessPage() {
             <span className="text-green-400 text-lg font-semibold">PAYMENT SUCCESSFUL!</span>
           </div>
           
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
+          <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
             Welcome to the Miftah Business Coaching Community!
           </h1>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
