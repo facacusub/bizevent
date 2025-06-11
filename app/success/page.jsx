@@ -63,7 +63,7 @@ export default function SuccessPage() {
               Step 1: Join Our WhatsApp Group
             </h2>
             <p className="text-gray-300 mb-6">
-              Get instant access to our exclusive community of business owners and daily tips from Warsame.
+              Get instant access to our exclusive community of business owners. Webinar details will be sent here
             </p>
             
             <Link href="https://chat.whatsapp.com/HyRjlxlMsEE01MmqclHOyr" target="_blank">

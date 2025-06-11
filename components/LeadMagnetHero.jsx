@@ -17,7 +17,7 @@ const LeadMagnetHero = () => {
             {/* Badge */}
             <div className="inline-flex items-center bg-purple-500/10 border border-purple-500/20 rounded-full px-3 py-1.5 md:px-4 md:py-2">
               <FaFileAlt className="text-purple-400 mr-1.5 md:mr-2 text-sm md:text-base" />
-              <span className="text-purple-400 text-xs md:text-sm font-semibold">FREE GUIDE</span>
+              <span className="text-purple-400 text-xs md:text-sm font-semibold">FREE GUIDE + WEBINAR</span>
             </div>
 
             {/* Main Headline */}
@@ -26,9 +26,14 @@ const LeadMagnetHero = () => {
                 The <span className="text-purple-400">7 Steps</span> to
                 Consistent Clients
               </h1>
-              <p className="text-lg md:text-xl text-gray-300  mx-auto">
+              <p className="text-lg md:text-xl text-gray-300  mx-auto mb-4">
                 Stop chasing leads. Start attracting the right clients with this proven framework.
               </p>
+              
+              {/* Webinar Date */}
+              <div className="inline-flex items-center bg-purple-500/10 border border-purple-500/20 rounded-full px-4 py-2">
+                <span className="text-purple-400 text-sm font-semibold">+ LIVE WEBINAR: Friday, June 20th, 2025</span>
+              </div>
             </div>
           </div>
 
@@ -82,7 +87,7 @@ const LeadMagnetHero = () => {
             <Link href="/survey">
               <Button className="bg-purple-400 hover:bg-purple-500 text-slate-900 font-bold py-3 md:py-4 px-6 md:px-8 text-base md:text-lg h-auto inline-flex items-center">
                 <FaDownload className="mr-2 text-sm md:text-base" />
-                Get Free Guide + Community Access
+                Get Guide + Webinar Access
               </Button>
             </Link>
             
@@ -98,21 +103,28 @@ const LeadMagnetHero = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-2xl mx-auto text-left">
               <div className="flex items-center space-x-2 text-white text-sm md:text-base">
                 <span className="text-purple-400 flex-shrink-0">✓</span>
-                <span>7 proven steps to consistent clients</span>
+                <span>7-step proven framework (PDF)</span>
+              </div>
+              <div className="flex items-center space-x-2 text-white text-sm md:text-base">
+                <span className="text-purple-400 flex-shrink-0">✓</span>
+                <span>Live business webinar (June 20th)</span>
               </div>
               <div className="flex items-center space-x-2 text-white text-sm md:text-base">
                 <span className="text-purple-400 flex-shrink-0">✓</span>
                 <span>Real action tips (no theory)</span>
               </div>
               <div className="flex items-center space-x-2 text-white text-sm md:text-base">
-                <span className="text-purple-400 flex-shrink-0">✓</span>
-                <span>Built for service providers</span>
-              </div>
-              <div className="flex items-center space-x-2 text-white text-sm md:text-base">
                 <span className="text-green-500 flex-shrink-0"><FaWhatsapp /></span>
                 <span>WhatsApp community access</span>
               </div>
             </div>
+            
+            {/* Upsell Mention */}
+            {/* <div className="text-center">
+              <p className="text-gray-400 text-sm">
+                <span className="text-purple-400">Bonus:</span> VIP 1-hour group coaching available before webinar
+              </p>
+            </div> */}
 
             {/* Stats Row */}
             {/* <div className="grid grid-cols-3 gap-4 max-w-md mx-auto">
